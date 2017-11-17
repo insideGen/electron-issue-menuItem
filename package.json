@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron --inspect=5858 ."
   },
   "repository": "https://github.com/insideGen/electron-issue-menuItem",
   "keywords": [
