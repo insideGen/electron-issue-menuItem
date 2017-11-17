@@ -1,22 +1,23 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-issue-menuItem",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/insideGen/electron-issue-menuItem",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "issue",
+    "menuItem"
   ],
-  "author": "GitHub",
+  "author": "insideGen",
   "license": "CC0-1.0",
+  "dependencies": {
+    "electron-log": "^2.2.11"
+  },
   "devDependencies": {
-    "electron": "~1.7.8"
+    "electron": "~1.8.1"
   }
 }
